@@ -1,6 +1,6 @@
 {
   "name": "@bissonte/api-nodejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js Bissonte API SDK(Client)",
   "main": "src/index.js",
   "scripts": {
