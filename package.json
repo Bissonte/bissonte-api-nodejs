@@ -1,0 +1,49 @@
+{
+  "name": "bissonte-api-nodejs",
+  "version": "0.0.1",
+  "description": "Node.js Bissonte API SDK(Client)",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prettier:check": "prettier --check \"{,**/}*.{js,ts}\"",
+    "prettier:write": "prettier --write \"{,**/}*.{js,ts}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bissonte/bissonte-api-nodejs.git"
+  },
+  "keywords": [
+    "bissonte",
+    "bissonte sdk",
+    "sdk",
+    "rest",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bissonte/bissonte-api-nodejs/issues"
+  },
+  "homepage": "https://github.com/Bissonte/bissonte-api-nodejs#readme",
+  "devDependencies": {
+    "@types/node": "20.5.9",
+    "eslint": "8.48.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-import": "2.28.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prefer-arrow": "1.2.3",
+    "eslint-plugin-prettier": "5.0.0",
+    "eslint-plugin-promise": "6.1.1",
+    "eslint-plugin-standard": "5.0.0",
+    "prettier": "3.0.3",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "axios": "1.5.0",
+    "i": "0.3.7",
+    "npm": "10.0.0"
+  }
+}
